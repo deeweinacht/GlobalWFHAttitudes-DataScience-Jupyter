@@ -1,0 +1,60 @@
+return_office                                  object   Response if employer announced that employees must return to the worksite 5+ days per week
+education                                      int64    Numeric value that encodes the respondent's educational attainment
+age                                            int64    Respondent's age
+married                                        float64  If the respondent is married
+with_kids                                      float64  If the respondent lives with children under age 14
+work_home_days_current                         float64  Number of days working from home this week
+work_home_days_employer                        float64  Number of days that the respondents employer plans to have them work from home weekly
+work_home_days_employee                        int64    Number of days that the respondent desires to work from home weekly
+WFH_value                                      float64  Amenity value of the option to WFH 2-3 days per week
+WFH_expectation                                float64  WFH productivity during COVID, relative to expectations
+WFH_perception                                 int64    Change in social acceptance of working from home in the respondent's social group since covid
+commute_time_hs                                float64  Round trip commute time in hours
+deaths_pc                                      float64  Covid-19 Deaths Per Capita in respondents country at the time of survey
+LSI                                            float64  Lockdown Stringency Index in respondents country at the time of survey
+oxf_LSI                                        float64  Oxford Lockdown Stringency Index in respondents country at the time of survey
+GDP_pc_2019                                    float64  2019 GDP per capita (constant 2010 US$) in respondent's country
+mask                                           float64  Mandatory Mask Wearing Index in respondents country at the time of survey
+gender_male                                    int64    Dummy variable for gender
+gender_other/prefer not to say                 int64    Dummy variable for gender
+industry_job_arts_&_entertainment              int64    Dummy variable for respondent's job/industry
+industry_job_construction                      int64    Dummy variable for respondent's job/industry
+industry_job_education                         int64    Dummy variable for respondent's job/industry
+industry_job_finance_or_insurance              int64    Dummy variable for respondent's job/industry
+industry_job_government                        int64    Dummy variable for respondent's job/industry
+industry_job_health_care_&_social_assistance   int64    Dummy variable for respondent's job/industry
+industry_job_hospitality_&_food_services       int64    Dummy variable for respondent's job/industry
+industry_job_information                       int64    Dummy variable for respondent's job/industry
+industry_job_manufacturing                     int64    Dummy variable for respondent's job/industry
+industry_job_mining                            int64    Dummy variable for respondent's job/industry
+industry_job_other                             int64    Dummy variable for respondent's job/industry
+industry_job_professional_&_business_services  int64    Dummy variable for respondent's job/industry
+industry_job_real_estate                       int64    Dummy variable for respondent's job/industry
+industry_job_retail_trade                      int64    Dummy variable for respondent's job/industry
+industry_job_transportation_or_warehousing     int64    Dummy variable for respondent's job/industry
+industry_job_utilities                         int64    Dummy variable for respondent's job/industry
+industry_job_wholesale_trade                   int64    Dummy variable for respondent's job/industry
+country_austria                                int64    Dummy variable for respondent's country
+country_brazil                                 int64    Dummy variable for respondent's country
+country_canada                                 int64    Dummy variable for respondent's country
+country_china                                  int64    Dummy variable for respondent's country
+country_france                                 int64    Dummy variable for respondent's country
+country_germany                                int64    Dummy variable for respondent's country
+country_greece                                 int64    Dummy variable for respondent's country
+country_hungary                                int64    Dummy variable for respondent's country
+country_india                                  int64    Dummy variable for respondent's country
+country_italy                                  int64    Dummy variable for respondent's country
+country_japan                                  int64    Dummy variable for respondent's country
+country_korea                                  int64    Dummy variable for respondent's country
+country_malaysia                               int64    Dummy variable for respondent's country
+country_netherlands                            int64    Dummy variable for respondent's country
+country_poland                                 int64    Dummy variable for respondent's country
+country_russia                                 int64    Dummy variable for respondent's country
+country_singapore                              int64    Dummy variable for respondent's country
+country_spain                                  int64    Dummy variable for respondent's country
+country_sweden                                 int64    Dummy variable for respondent's country
+country_taiwan                                 int64    Dummy variable for respondent's country
+country_turkey                                 int64    Dummy variable for respondent's country
+country_uk                                     int64    Dummy variable for respondent's country
+country_ukraine                                int64    Dummy variable for respondent's country
+country_usa                                    int64    Dummy variable for respondent's country

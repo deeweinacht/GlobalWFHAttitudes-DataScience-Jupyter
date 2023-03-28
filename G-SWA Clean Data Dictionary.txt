@@ -1,0 +1,20 @@
+original_country         int64    Respondent's country
+gender                   object   Respondent's gender
+education                object   Respondent's educational attainment
+industry_job             object   Respondent's job/industry
+age                      int64    Respondent's age
+married                  float64  If the respondent is married
+with_kids                float64  If the respondent lives with children under age 14
+work_home_days_current   float64  Number of days working from home this week
+work_home_days_employer  float64  Number of days that the respondents employer plans to have them work from home weekly
+work_home_days_employee  int64    Number of days that the respondent desires to work from home weekly
+WFH_value                float64  Amenity value of the option to WFH 2-3 days per week, as a percent change in respondent's income
+WFH_expectation          float64  WFH productivity during COVID, relative to expectations
+WFH_perception           int64    Change in social acceptance of working from home in the respondent's social group since covid
+return_office            object   Response if employer announced that employees must return to the worksite 5+ days per week
+commute_time_hs          float64  Round trip commute time in hours
+deaths_pc                float64  Covid-19 Deaths Per Capita in respondents country at the time of survey
+LSI                      float64  Lockdown Stringency Index in respondents country at the time of survey
+oxf_LSI                  float64  Oxford Lockdown Stringency Index in respondents country at the time of survey
+GDP_pc_2019              float64  2019 GDP per capita (constant 2010 US$) in respondent's country
+mask                     float64  Mandatory Mask Wearing Index in respondents country at the time of survey
